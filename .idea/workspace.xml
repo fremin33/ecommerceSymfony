@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b32b2a5c-5cac-4f65-bb66-2ff6903e19da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/ecommerce/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/ecommerce/firstPage.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/ecommerce/firstPage.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,13 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/ecommerce/index.html.twig">
+      <file leaf-file-name="firstPage.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/ecommerce/firstPage.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
               <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <element signature="e#65#79#0#Twig" expanded="true" />
+                <element signature="e#69#83#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +56,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="252" />
     <option name="y" value="63" />
     <option name="width" value="687" />
@@ -85,8 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +135,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,32 +169,33 @@
       <workItem from="1517933686631" duration="2540000" />
       <workItem from="1517936522651" duration="111000" />
       <workItem from="1517936648121" duration="6037000" />
+      <workItem from="1518032132185" duration="1157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8688000" />
+    <option name="totallyTimeSpent" value="9845000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="714" extended-state="6" />
+    <frame x="252" y="63" width="1366" height="714" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -216,10 +212,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Resources/views/ecommerce/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#65#79#0#Twig" expanded="true" />
+            <marker date="1517941843961" expanded="true" signature="84:178" ph="{% block body ...%}" />
           </folding>
         </state>
       </provider>
@@ -229,7 +225,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#65#79#0#Twig" expanded="true" />
+            <marker date="1517941843961" expanded="true" signature="84:178" ph="{% block body ...%}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/ecommerce/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517941843961" expanded="true" signature="84:178" ph="{% block body ...%}" />
           </folding>
         </state>
       </provider>
@@ -297,15 +303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1517936936129" expanded="true" signature="21:384" ph="..." />
-            <marker date="1517936936129" expanded="true" signature="32:268" ph="..." />
-            <marker date="1517936936129" expanded="true" signature="82:121" ph="{% block title ...%}" />
-            <marker date="1517936936129" expanded="true" signature="138:175" ph="{% block stylesheets ...%}" />
-            <marker date="1517936936129" expanded="true" signature="279:376" ph="..." />
-            <marker date="1517936936129" expanded="true" signature="289:319" ph="{% block body ...%}" />
-            <marker date="1517936936129" expanded="true" signature="328:365" ph="{% block javascripts ...%}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -313,79 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-65">
           <caret line="289" column="0" lean-forward="false" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
-          <folding>
-            <marker date="1517229004000" expanded="false" signature="9:234" ph="..." />
-            <marker date="1517229004000" expanded="false" signature="296:1146" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="1151:1309" ph=" Common features needed in controllers. ..." />
-            <marker date="1517229004000" expanded="true" signature="1333:16190" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="1343:1563" ph=" Returns true if the service id is defined. ..." />
-            <marker date="1517229004000" expanded="true" signature="1597:1652" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="1661:1837" ph=" Gets a container service by its id. ..." />
-            <marker date="1517229004000" expanded="true" signature="1871:1926" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="1935:2348" ph=" Generates a URL from the given parameters. ..." />
-            <marker date="1517229004000" expanded="true" signature="2471:2578" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="2587:2955" ph=" Forwards the request to another controller. ..." />
-            <marker date="1517229004000" expanded="true" signature="3048:3409" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="3418:3682" ph=" Returns a RedirectResponse to the given URL. ..." />
-            <marker date="1517229004000" expanded="true" signature="3737:3801" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="3810:4165" ph=" Returns a RedirectResponse to the given route with the given parameters. ..." />
-            <marker date="1517229004000" expanded="true" signature="4258:4352" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="4361:4807" ph=" Returns a JsonResponse that uses the serializer component if enabled, or json_encode. ..." />
-            <marker date="1517229004000" expanded="true" signature="4899:5311" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="4956:5244" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="5024:5163" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="5051:5162" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="5057:5151" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="5320:5855" ph=" Returns a BinaryFileResponse object with original or customized file name and disposition header. ..." />
-            <marker date="1517229004000" expanded="true" signature="5968:6184" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="6193:6425" ph=" Adds a flash message to the current session for type. ..." />
-            <marker date="1517229004000" expanded="true" signature="6476:6780" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="6531:6693" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="6789:7115" ph=" Checks if the attributes are granted against the current authentication token and optionally supplied subject. ..." />
-            <marker date="1517229004000" expanded="true" signature="7180:7537" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="7258:7423" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="7546:7946" ph=" Throws an exception unless the attributes are granted against the current authentication token and optionally ..." />
-            <marker date="1517229004000" expanded="true" signature="8054:8332" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="8116:8325" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="8341:8595" ph=" Returns a rendered view. ..." />
-            <marker date="1517229004000" expanded="true" signature="8667:9156" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="8724:8817" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="8865:9074" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="9165:9473" ph=" Renders a view. ..." />
-            <marker date="1517229004000" expanded="true" signature="9568:10229" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="9625:9722" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="9764:9855" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="9863:10068" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="10104:10153" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="10238:10586" ph=" Streams a view. ..." />
-            <marker date="1517229004000" expanded="true" signature="10689:11595" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="10746:10967" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="10886:10956" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="11009:11207" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="11131:11196" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="11215:11420" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="11456:11517" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="11604:11998" ph=" Returns a NotFoundHttpException. ..." />
-            <marker date="1517229004000" expanded="true" signature="12100:12175" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="12184:12676" ph=" Returns an AccessDeniedException. ..." />
-            <marker date="1517229004000" expanded="true" signature="12787:13131" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="12852:13060" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="13140:13487" ph=" Creates and returns a Form instance from the type of the form. ..." />
-            <marker date="1517229004000" expanded="true" signature="13570:13668" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="13677:13933" ph=" Creates and returns a form builder instance. ..." />
-            <marker date="1517229004000" expanded="true" signature="14016:14131" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="14140:14353" ph=" Shortcut to return the Doctrine Registry service. ..." />
-            <marker date="1517229004000" expanded="true" signature="14392:14664" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="14448:14606" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="14673:14915" ph=" Get a user from the Security Token Storage. ..." />
-            <marker date="1517229004000" expanded="true" signature="14950:15468" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="15020:15185" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="15280:15309" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="15364:15438" ph="..." />
-            <marker date="1517229004000" expanded="true" signature="15477:15758" ph=" Checks the validity of a CSRF token. ..." />
-            <marker date="1517229004000" expanded="true" signature="15813:16188" ph="{...}" />
-            <marker date="1517229004000" expanded="true" signature="15888:16069" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -393,14 +317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <marker date="1517940126023" expanded="true" signature="0:96" ph="ecommerce: &lt;3 keys&gt;" />
-            <marker date="1517940126023" expanded="true" signature="25:55" ph="@Ecommerc…ontroller/" />
-            <marker date="1517940126023" expanded="true" signature="70:80" ph="annotation" />
-            <marker date="1517940126023" expanded="true" signature="98:162" ph="app: &lt;2 keys&gt;" />
-            <marker date="1517940126023" expanded="true" signature="117:141" ph="@AppBundl…ontroller/" />
-            <marker date="1517940126023" expanded="true" signature="152:162" ph="annotation" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,23 +337,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/ecommerce/firstPage.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1517942026591" expanded="true" signature="65:79" ph="base" />
-            <marker date="1517942026591" expanded="true" signature="84:178" ph="{% block body ...%}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/ecommerce/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#65#79#0#Twig" expanded="true" />
+            <marker date="1517941843961" expanded="true" signature="84:178" ph="{% block body ...%}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/ecommerce/firstPage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#69#83#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
