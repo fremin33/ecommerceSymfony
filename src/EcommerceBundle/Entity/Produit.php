@@ -49,27 +49,6 @@ class Produit
      */
     private $disponible;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="categorie", type="string", length=255)
-     */
-    private $categorie;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="image", type="string", length=255)
-     */
-    private $image;
-
-    /**
-     * @var float
-     *
-     * @ORM\Column(name="tva", type="float")
-     */
-    private $tva;
-
 
     /**
      * Get id
@@ -175,78 +154,6 @@ class Produit
     public function getDisponible()
     {
         return $this->disponible;
-    }
-
-    /**
-     * Set categorie
-     *
-     * @param string $categorie
-     *
-     * @return Produit
-     */
-    public function setCategorie($categorie)
-    {
-        $this->categorie = $categorie;
-
-        return $this;
-    }
-
-    /**
-     * Get categorie
-     *
-     * @return string
-     */
-    public function getCategorie()
-    {
-        return $this->categorie;
-    }
-
-    /**
-     * Set image
-     *
-     * @param string $image
-     *
-     * @return Produit
-     */
-    public function setImage($image)
-    {
-        $this->image = $image;
-
-        return $this;
-    }
-
-    /**
-     * Get image
-     *
-     * @return string
-     */
-    public function getImage()
-    {
-        return $this->image;
-    }
-
-    /**
-     * Set tva
-     *
-     * @param float $tva
-     *
-     * @return Produit
-     */
-    public function setTva($tva)
-    {
-        $this->tva = $tva;
-
-        return $this;
-    }
-
-    /**
-     * Get tva
-     *
-     * @return float
-     */
-    public function getTva()
-    {
-        return $this->tva;
     }
 }
 

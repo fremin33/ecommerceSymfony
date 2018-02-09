@@ -1,0 +1,159 @@
+<?php
+
+namespace EcommerceBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Commande
+ *
+ * @ORM\Table(name="commande")
+ * @ORM\Entity(repositoryClass="EcommerceBundle\Repository\CommandeRepository")
+ */
+class Commande
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="valide", type="boolean")
+     */
+    private $valide;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date", type="datetime")
+     */
+    private $date;
+
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="reference", type="integer")
+     */
+    private $reference;
+
+    /**
+     * @var array
+     *
+     * @ORM\Column(name="produits", type="array")
+     */
+    private $produits;
+
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set valide
+     *
+     * @param boolean $valide
+     *
+     * @return Commande
+     */
+    public function setValide($valide)
+    {
+        $this->valide = $valide;
+
+        return $this;
+    }
+
+    /**
+     * Get valide
+     *
+     * @return bool
+     */
+    public function getValide()
+    {
+        return $this->valide;
+    }
+
+    /**
+     * Set date
+     *
+     * @param \DateTime $date
+     *
+     * @return Commande
+     */
+    public function setDate($date)
+    {
+        $this->date = $date;
+
+        return $this;
+    }
+
+    /**
+     * Get date
+     *
+     * @return \DateTime
+     */
+    public function getDate()
+    {
+        return $this->date;
+    }
+
+    /**
+     * Set reference
+     *
+     * @param integer $reference
+     *
+     * @return Commande
+     */
+    public function setReference($reference)
+    {
+        $this->reference = $reference;
+
+        return $this;
+    }
+
+    /**
+     * Get reference
+     *
+     * @return int
+     */
+    public function getReference()
+    {
+        return $this->reference;
+    }
+
+    /**
+     * Set produits
+     *
+     * @param array $produits
+     *
+     * @return Commande
+     */
+    public function setProduits($produits)
+    {
+        $this->produits = $produits;
+
+        return $this;
+    }
+
+    /**
+     * Get produits
+     *
+     * @return array
+     */
+    public function getProduits()
+    {
+        return $this->produits;
+    }
+}
+
