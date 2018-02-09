@@ -1,3 +1,8 @@
+utilisateurs:
+    resource: "@UtilisateursBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 pages:
     resource: "@PagesBundle/Controller/"
     type:     annotation
@@ -11,3 +16,6 @@ ecommerce:
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
