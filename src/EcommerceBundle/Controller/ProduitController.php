@@ -38,19 +38,6 @@ class ProduitController extends Controller
      */
     public function addAction()
     {
-        /* On récupère L'entity Manager*/
-//        $em = $this->getDoctrine()->getManager();
-//        $produit = new Produit();
-//        $produit->setNom('Produit 1');
-//        $produit->setDescription('Blablavla');
-//        $produit->setCategorie("game");
-//        $produit->setDisponible(true);
-//        $produit->setPrix(5.55);
-//        $produit->setImage("jolie");
-//        $produit->setTva(5.55);
-//        $em->persist($produit);
-
-
         return $this->render('default/pages/show.html.twig');
     }
 }
