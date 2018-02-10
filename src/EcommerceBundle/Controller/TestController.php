@@ -2,6 +2,7 @@
 #src/EcommerceBundle/Controller/testController.php
 namespace EcommerceBundle\Controller;
 
+use EcommerceBundle\Entity\Media;
 use EcommerceBundle\Entity\Produit;
 use EcommerceBundle\Form\TestType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
