@@ -26,11 +26,15 @@ class ProduitController extends Controller
 
 
     /**
-     * @Route("/produit", name="produit")
+     * @Route("/produit/{produit}", name="produit")
      */
-    public function showAction()
+    public function showAction($produit)
     {
-        return $this->render('default/produits/show.html.twig', []);
+        $em = $this->getDoctrine()->getManager();
+        $produit = $em->getRepository(Produit::class)->find($produit);
+        return $this->render('default/produits/show.html.twig', [
+            'produit' => $produit
+        ]);
     }
 
     /**
@@ -40,4 +44,19 @@ class ProduitController extends Controller
     {
         return $this->render('default/pages/show.html.twig');
     }
+
+    /**
+     * @Route("/categorie/{categorie}", name="categorieProduits")
+     */
+    public function categorieAction($categorie)
+    {
+
+        // Récupérer les produits propres à une category
+        $em = $this->getDoctrine()->getManager();
+        $produits = $em->getRepository(Produit::class)->byCategorie($categorie);
+        return $this->render('default/produits/index.html.twig', [
+            'produits' => $produits
+        ]);
+    }
+
 }
