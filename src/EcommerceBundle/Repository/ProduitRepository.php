@@ -11,13 +11,17 @@ namespace EcommerceBundle\Repository;
 class ProduitRepository extends \Doctrine\ORM\EntityRepository
 {
 
+    /**
+     * @param EcommerceBundle\Entity\Categorie $categorie
+     * @return array
+     * @todo On récupère les produits ayant la categorie passé en paramètre
+     */
     public function byCategorie($categorie)
     {
         $qb = $this->createQueryBuilder('p')
             ->where('p.categorie = :categorie')
             ->orderBy('p.id')
             ->setParameter('categorie', $categorie);
-
         return $qb->getQuery()->getResult();
     }
 }

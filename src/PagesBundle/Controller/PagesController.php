@@ -9,7 +9,11 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class PagesController extends Controller
 {
 
-    // Affiche la liste des pages
+    /**
+     *
+     * @todo Affiche un lien des pages CGV et Mentions Légales
+     *
+     */
     public function indexAction()
     {
         $em = $this->getDoctrine()->getManager();
@@ -20,10 +24,11 @@ class PagesController extends Controller
     }
 
 
-
-
     /**
      * @Route("/page/{id}", name="page")
+     * @param Page $id
+     * @return \Symfony\Component\HttpFoundation\Response
+     * @todo Affiche le contenu des pages CGV et Mentions Légales
      */
     public function showAction($id)
     {
